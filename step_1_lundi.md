@@ -112,6 +112,66 @@ We can also put the `.orc` and the `.sco` files together in a `.csd` file. This 
 
 In this file, all lines starting by a semi-colon `;` are commented out and not read by the program.
 
+## Going further
 
+**Now that this info is layed out, how do we go around exploring the sound making possibilities of Csound, _while not knowing about sound synthesis_?**
+
+Let's learn about this first, and we will come back to Csound proper afterwards !
+
+# Sound synthesis
+
+The broad history is given here: http://write.flossmanuals.net/csound/a-additive-synthesis/
+
+Briefly: Fourier discovers in the 1800s that "any continuous function can be described perfectly as a sum of sine waves". 
+
+Let's go deeper : https://en.wikibooks.org/wiki/Sound_Synthesis_Theory
+
+## Walking through the Ableton Learning Synth tutorial
+
+This tutorial was suggested to me by different people, starting at the [Société des Arts Technologiques](sat.qc.ca) Station Créative workshops.
+
+Here: https://learningsynths.ableton.com/
+
+### Basics features
+
+*Amplitude*: how loud a sound is.
+
+*Pitch*: if a sound is aïgu or grave.
+
+*Brigthness*: still unsure about to best define this, and apparently [I am not alone](https://music.stackexchange.com/questions/81104/what-is-brightness) - although [later comes an explanation](https://learningsynths.ableton.com/en/filters/filters-in-synthesizers)
+
+*Movement*: it feels like the sound is moving - maybe the frequency is higher ? More on this later.
+
+### Envelopes
+
+Let's move on to [envelopes](https://learningsynths.ableton.com/en/envelopes/change-over-time): "most synthesizers have envelopes with four sections or stages, called attack, decay, sustain, and release. You’ll often see these abbreviated as ADSR."
+
+*Attack*: basic, attack is the delay before the envelope reaches its peak, when a note is played. If the delay is long, the sound will evolve slower.
+
+*Decay*: the time is takes for the envelope to get to the sustain level, after reaching its peak.
+
+*Sustain*: the point where nothing changes.
+
+*Release*: the time is takes for the sound to stop after the note has stopped playing. 
+
+You can play with all of these here: https://learningsynths.ableton.com/en/envelopes/putting-the-envelope-together
+
+
+
+## Notes on Sound and Music by Ben Lynn
+
+https://crypto.stanford.edu/~blynn/sound/
+
+
+# Going back to mathematics
+
+Some links:
+[John Baez 2006 blog about math of music](http://www.math.ucr.edu/home/baez/week234.html)
+
+[Elements of music, Wikipedia](https://en.wikipedia.org/wiki/Elements_of_music)
+
+[Music and mathematics, Wikipedia](https://en.wikipedia.org/wiki/Music_and_mathematics)
+
+[Lots of resources from the AMS](http://www.ams.org/publicoutreach/math-and-music), including this personal favorite of mine, [The Geometry of Music by Tymoczko](https://www.youtube.com/watch?v=2A4Tt62pWaI).
 
 
