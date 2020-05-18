@@ -8,7 +8,7 @@ I am going to work through this tutorial: http://www.csounds.com/toots/index.htm
 
 ## Introduction
 
-The main working of Csound: like in assembly, one line of Csound can be read as a series of arguments. 
+The main working of Csound: like in assembly, one line of Csound can be read as an action followed by a serie of arguments. 
 
 The main parts of a Csound file:
 * the orchestra file: it can be further broken down in two pieces, the instruments definitions, and the meta information contained in the header.
@@ -43,7 +43,7 @@ Let's work through an example.
                 out     a1
                 endin
 
-With the first line, `instr 1`, we are definin an instrument and attributing the number 1 to it; this number will be used to refer to this instrument in the score file.
+With the first line, `instr 1`, we are defining an instrument and attributing the number 1 to it; this number will be used to refer to this instrument in the score file.
 
 On the second line, we are generating an oscillator, `oscil`, whose result is stored in the variable `a1`. The numbers are arguments used by `oscil`.
 
