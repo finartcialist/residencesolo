@@ -72,6 +72,11 @@ You can change the name of this file with the flag -o FILE:
 
 We can also put the `.orc` and the `.sco` files together in a `.csd` file. This will give us the following code:
 
+        <CsoundSynthesizer>
+        <CsOptions>
+        ; -odac
+        </CsOptions>
+        <CsInstruments>
         ;===========
         ; toot01.orc 
         ;===========
@@ -91,6 +96,8 @@ We can also put the `.orc` and the `.sco` files together in a `.csd` file. This 
         a1		oscil	10000, 440, 1
 	        	out		a1
 		        endin
+        </CsInstruments>
+        <CsScore>
 
         ;===========
         ; toot01.sco
@@ -108,7 +115,9 @@ We can also put the `.orc` and the `.sco` files together in a `.csd` file. This 
         i1	0	4
 
         ; indicates the end of the score
-        e					
+        e		
+        </CsScore>
+        </CsoundSynthesizer>			
 
 In this file, all lines starting by a semi-colon `;` are commented out and not read by the program.
 
@@ -173,5 +182,6 @@ Some links:
 [Music and mathematics, Wikipedia](https://en.wikipedia.org/wiki/Music_and_mathematics)
 
 [Lots of resources from the AMS](http://www.ams.org/publicoutreach/math-and-music), including this personal favorite of mine, [The Geometry of Music by Tymoczko](https://www.youtube.com/watch?v=2A4Tt62pWaI).
+
 
 
