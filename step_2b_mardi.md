@@ -38,3 +38,38 @@ Quand c'est fini: reprise exploration Csound:
 * livedata
 * pycode/Python
 * instrument adéquat
+
+
+# back to work
+
+
+https://linux.die.net/man/1/aplay
+
+https://www.wired.com/2013/10/master-cactus-cassette-magazine/
+
+https://artport.whitney.org/commissions/softwarestructures2016/text.html
+
+http://flong.com/projects/slon/
+
+https://www.artsy.net/article/artsy-editorial-exhibit-sound-art
+
+https://www.youtube.com/watch?v=hh_5_CAySXY
+
+https://jeannicod.ccsd.cnrs.fr/ijn_00420039/document
+
+https://www.youtube.com/watch?v=N_sUPFjouVQ
+
+https://www.youtube.com/watch?v=-8x3s0HO7i8
+
+https://www.youtube.com/watch?v=oBEZF2pAbMg
+
+# thinking about acquiring a modular synth now...
+
+http://www.csounds.com/journal/issue18/eurorack.html
+
+ok that's a wrap for today !
+
+À demain ! :)
+
+
+
