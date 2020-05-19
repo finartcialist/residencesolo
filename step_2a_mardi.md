@@ -139,6 +139,10 @@ they are both "the same" and also quite different...!
 
 also listening to this : https://peterkirn.bandcamp.com/album/splintered-cycles
 
+# résumé histoire finartcialist
+
+some background on the finartcialist project.
+
 ## the thing about data sonification vs sound art
 
 when i first started finartcialist (a project that was born without a name), i did not know that what I was doing had a name. I was just calling it generative music... it is still not clear to me if it was generative music or not.
@@ -172,13 +176,16 @@ I always feel loss when trying to describe what I do... and everything is still 
 
 # lévy pdf
 
+So I had this idea this morning and now I do not know what to do with it exactly... 
 
+Basically I want to explore fat-tail sound making - random processes that make sound, that are based on fat tailed distribution, like Lévy processes and all the things [Nassim Taleb](https://fr.wikipedia.org/wiki/Nassim_Nicholas_Taleb) talks about in his book Black Swan.
 
-# résumé histoire finartcialist
+I will probably come back later to this.
+
 
 # notes sur la création d'instruments
 
-
+i feel lost at the moment and I am not sure what is the next best step.
 
 
 
