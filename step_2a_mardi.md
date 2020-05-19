@@ -121,11 +121,25 @@ http://www.csounds.com/manual/html/gauss.html
 
 échec: l'exemple ne semble rien donner...
 
+bon, disons... revenons-y plus tard, je veux continuer mes explorations et surtout, continuer mes expérimentations avec l'attracteur de Lorenz !
 
+# pause: data sonification
 
+https://en.wikipedia.org/wiki/Data_sonification
 
+https://www.youtube.com/watch?v=3EXvR1shVFQ
+
+https://www.ft.com/content/80269930-40c3-11e9-b896-fe36ec32aece
+
+( more on this one here https://www.oreilly.com/radar/data-sonification-making-music-from-the-yield-curve/)
+
+i am not sure how i feel about the words data sonification as it relates to sound art...
+
+they are both "the same" and also quite different...!
 
 # lévy pdf
+
+
 
 # résumé histoire finartcialist
 
