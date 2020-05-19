@@ -23,11 +23,12 @@ instr 1
   kcps init 1000
   ifn = 1
   asnd oscil kamp, kcps, ifn
-
+  asnd2 oscil kamp, kcps*0.996, ifn
+  asnd3 oscil kamp, kcps*1.004, ifn
   ; Figure out its X, Y, Z coordinates.
-  ksv init 10
+  ksv init p5
   krv init 28
-  kbv init 2.667
+  kbv init p4
   kh init 0.0003
   ix = 0.6
   iy = 0.6
@@ -46,10 +47,13 @@ instr 1
   iovr = 2
   aw2, ax2, ay2, az2 spat3d asnd, kx, ky, kz, idist, \
                             ift, imode, imdel, iovr
-
+  aw3, ax3, ay3, az3 spat3d asnd2, kx, ky, kz, idist, \
+                            ift, imode, imdel, iovr
+  aw4, ax4, ay4, az4 spat3d asnd3, kx, ky, kz, idist, \
+                            ift, imode, imdel, iovr
   ; Convert the 3D sound to stereo.
-  aleft = aw2 + ay2
-  aright = aw2 - ay2
+  aleft = aw2 + ay2 + aw3 + ay3 + aw4 + ay4
+  aright = aw2 - ay2 + aw3 - ay3 + aw4 - ay4
 
   outs aleft, aright
 endin
@@ -62,7 +66,7 @@ endin
 f 1 0 16384 20 1
 
 ; Play Instrument #1 for 2 seconds.
-i1  2.0   2.0    46.30321135175497     14.01
+i1  0.2   2.0    46.30321135175497     14.01
 i1  4.0   2.0    2.1413276231262435     13.98
 i1  6.0   2.0    7.8683834048640655     14.09
 i1  8.0   2.0    44.00283889283174     13.47
