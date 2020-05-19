@@ -137,6 +137,39 @@ i am not sure how i feel about the words data sonification as it relates to soun
 
 they are both "the same" and also quite different...!
 
+also listening to this : https://peterkirn.bandcamp.com/album/splintered-cycles
+
+## the thing about data sonification vs sound art
+
+when i first started finartcialist (a project that was born without a name), i did not know that what I was doing had a name. I was just calling it generative music... it is still not clear to me if it was generative music or not.
+
+Back in 2014, I saw an exhibit at Musée d'art Contemporain de Montréal, which included a piece of work by Richard Ibghy and Marilou Lemmens, called [The Prophets](http://www.ibghylemmens.com/The_Prophets.html). I was studying economics after doing mathematics, and I was in awe at the beautiful, critical art piece I was looking at.
+
+This feeling stayed with me as I started my M.Sc. in financial engineering.
+
+At some point, during a Simulation Monte Carlo homework (I think it was the homework about developing a model related to mortgage-backed securities), I was inspired to create a sonification for the algorithm I was using.
+
+I started to generate sound in MIDI, in Matlab, and soon evolved to using libsndfile in C, directly. The result was pretty brutal, and I was just realizing how much I had to learn about sound synthesis...
+
+I still got some algorithmic music out, as I was calling it - although again, it is not exactly that either...
+
+I was on the fence about how to call what I was making. I didn't know the right terminology - it was definitely experimental music, although it was barely music - it  was just notes that sounded either too random, or too specific. Plus my process was extremely simple, basic one might say...
+
+I remember spending time searching for ways to make music - by remixing Chopin, e.g. - before giving up for a while... and before discovering Csound.
+
+So my story of discovering Csound - at first I knew I could do what I wanted to do with it, in a way that is more user friendly than using libsndfile in C directly - but I had to learn it. And all the docs I was able to find did not make sense to me - it had all these words I knew nothing about. I mean, I did not know where to look up this information ! Besides Wikipedia, of course.
+
+So time went by... I finished my master, started working and had no time for this.
+
+A year or so ago, I decided to go back to this project - and now here I am.
+
+So for me data sonification is more about the academic process - it is about using sound to make sense out of data, to gain a feeling for what is happening in the data. For me, data sonification is less about the artistic result you get, and more about how relevant your sonification is to analytics.
+
+Sound art is more about sound itself, less about the process, or sometimes it is the process too - conceptual sound art I guess ?
+
+I always feel loss when trying to describe what I do... and everything is still unfolding... so yeah, that's it for now. Let's get back to work.
+
+
 # lévy pdf
 
 
