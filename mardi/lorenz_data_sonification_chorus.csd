@@ -19,19 +19,19 @@ nchnls = 2
 ; Instrument #1 - a lorenz system in 3D space.
 instr 1
   ; Create a basic tone.
-  kamp init 15000
-  kcps init 500
+  kamp init 25000
+  kcps init 1000
   ifn = 1
   asnd oscil kamp, kcps, ifn
 
   ; Figure out its X, Y, Z coordinates.
-  ksv init 30
-  krv init p4
-  kbv init 8/3
+  ksv init 10
+  krv init 28
+  kbv init 2.667
   kh init 0.0003
-  ix = p5
-  iy = 0.2
-  iz =0.25
+  ix = 0.6
+  iy = 0.6
+  iz = 0.6
   iskip = 1
   ax1, ay1, az1 lorenz ksv, krv, kbv, kh, ix, iy, iz, iskip
 
@@ -61,7 +61,7 @@ endin
 ; Table #1 a sine wave.
 f 1 0 16384 20 1
 
-; Play Instrument #1 for 5 seconds.
+; Play Instrument #1 for 2 seconds.
 i1  2.0   2.0    46.30321135175497     14.01
 i1  4.0   2.0    2.1413276231262435     13.98
 i1  6.0   2.0    7.8683834048640655     14.09

@@ -87,6 +87,14 @@ le mot du jour: lévogyre  (tourne à gauche)
 
 OK so apparently, le domaine n'est pas borné...! donc le mapping ne sera pas évident... ou est-ce le contraire ?
 
+Hmmm... et si on essayait un chorus de Lorenz ?
+
+Allons-y !
+
+## Chorus de Lorenz
+
+On va commencer par le code du manuel : https://csound.com/docs/manual/lorenz.html
+
 
 
 
