@@ -75,6 +75,21 @@ L'impact de cette découverte étant généralement attribuée à Lorenz, contin
 
 Première question: quel est le domaine possible pour chaque variable ?
 
+Grâce à la technologie, on a une façon de jouer avec cet attracteur : http://experiences.math.cnrs.fr/Modele-de-Lorenz.html
+
+"L’«attracteur  de  Lorenz»est  le  paradigme  du  chaos  comme  le  verbe «aimer»e st le paradigme des verbes du premier groupe. Apprendre la conjugaison du verbe  aimer  ne  suffit  pas  pour  apprendre  le  français  mais  c’est  sans  aucun  doute nécessaire." (http://www.bourbaphy.fr/ghys.pdf, une excellent discussion sur l'attracteur et la théorie du chaos, séminaire Poincaré)
+
+Also, now that we are speaking of mathematics, I couldn't help but think about [music on torus](https://plus.maths.org/content/bach-and-musical-torus).
+
+le mot du jour: lévogyre  (tourne à gauche)
+
+(now I miss doing mathematics)
+
+OK so apparently, le domaine n'est pas borné...! donc le mapping ne sera pas évident... ou est-ce le contraire ?
+
+
+
+
 
 
 
