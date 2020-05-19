@@ -91,10 +91,45 @@ Hmmm... et si on essayait un chorus de Lorenz ?
 
 Allons-y !
 
-## Chorus de Lorenz
+# Essai: Chorus de Lorenz
 
 On va commencer par le code du manuel : https://csound.com/docs/manual/lorenz.html
 
+Ensuite, on va ajouter le choeur.
+
+Done: voir lorenz_data_sonification_chorus.csd
+
+
+# mouvement brownien
+
+Le mouvement brownien m'intéresse car il est utile dans les modèles financiers ET dans la musique.
+
+Voyons voir si quelque chose de similaire est déjà dans Csound...
+
+Bon déjà il y a ça : https://github.com/PasqualeMainolfi/AlgorithmiComposition mais la license ne me permet pas de l'utiliser...
+
+Il y a les fractales : http://www.csounds.com/manual/html/fractalnoise.html
+
+Bien sûr, il y a le noise : http://www.csounds.com/manual/html/noise.html
+
+Il y a une pléthore de noise en fait : http://www.csounds.com/manual/html/SiggenNoise.html
+
+En fait je pense que ceci est inspirant : 
+http://www.csounds.com/manual/html/gauss.html
+
+Écoutons.
+
+échec: l'exemple ne semble rien donner...
+
+
+
+
+
+# lévy pdf
+
+# résumé histoire finartcialist
+
+# notes sur la création d'instruments
 
 
 
