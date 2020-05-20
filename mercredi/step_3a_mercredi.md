@@ -47,5 +47,12 @@ hopefully this will works ! let's do it.
 
 essayons avec https://www.quandl.com/tools/python
 
+it works !
 
+question de pas ruiner l'API, on va utiliser le CSV pour le développement.
 
+## pause, 10h42: échecs et boule de gomme
+
+mais, à 10h56: ÇA FONCTIONNE
+
+si vous faites rouler le fichier `python_server.py` dans un terminal, et ensuite, dans un second terminal, vous exécutez le fichier `python_osc_last_try.py`: ça va fonctionner, vous allez voir les données s'afficher dans le premier terminal ! hourra !
