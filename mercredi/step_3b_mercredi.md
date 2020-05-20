@@ -12,3 +12,7 @@ je n'ai pas encore réussi à connecter csound et python par le biais d'OSC... p
 
 donc ce sera tout pour aujourd'hui, pour python/csound/OSC. à suivre demain.
 
+## cet après-midi, je ferai...
+
+- création pochette pour l'album EP à venir
+- titre de l'album
