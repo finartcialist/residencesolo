@@ -22,5 +22,30 @@ donc ce sera tout pour aujourd'hui, pour python/csound/OSC. à suivre demain.
 
 je n'ai pas fait tout ce que je voulais faire aujourd'hui - mais c'est pas grave.
 
+demain ! demain est un autre jour ! 
+
+## jeudi...
+
+### album !
+* écrire les explications de chaque pièce qui fera partie de l'album
+* écrire la description de l'album
+
+### OSC- continued
+* connecter Python avec Csound avec OSC
+* si cela ne fonctionne pas, regarder comment interfacer Csound à partir de Python
+* sinon, le contraire
+
+## vendredi
+
+### création d'instrument
+* voir comment augmenter l'instrument de Lorenz
+
+### composition automatique
+* écrire une troisième et dernière pièce pour l'album
+
+### bilan
+* écrire mes pensées sur ce format de résidence
+* écrire des notes personnelles pour la suite de ce projet.
+
 
 
