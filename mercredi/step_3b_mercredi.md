@@ -16,3 +16,11 @@ donc ce sera tout pour aujourd'hui, pour python/csound/OSC. à suivre demain.
 
 - création pochette pour l'album EP à venir
 - titre de l'album
+
+
+# planification de demain, jeudi
+
+je n'ai pas fait tout ce que je voulais faire aujourd'hui - mais c'est pas grave.
+
+
+
