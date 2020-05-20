@@ -11,7 +11,7 @@ import pandas
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", default="127.0.0.1",
+    parser.add_argument("--ip", default="localhost",
                         help="The ip of the OSC server")
     parser.add_argument("--port", type=int, default=5005,
                         help="The port the OSC server is listening on")
@@ -30,8 +30,7 @@ if __name__ == "__main__":
     full_data['pct'] = data_pct
 
     print(full_data.head())
-
     for index, row in full_data.iterrows():
         print(row['Open'])
-        client.send_message("/filter", row['Open'])
+        client.send_message("/amp", .400+row['pct'])
         time.sleep(1)
