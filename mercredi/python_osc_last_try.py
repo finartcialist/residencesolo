@@ -22,7 +22,7 @@ if __name__ == "__main__":
     time.sleep(1)
     client.send_message("/amp", 0.2)
 
-    #full_data = quandl.get("WIKI/AAPL", rows=10)
+    # full_data = quandl.get("WIKI/AAPL", rows=10)
     # checking that it worked !
     # print(full_data)
 

@@ -5,7 +5,7 @@
 </CsOptions>
 <CsInstruments>
 sr = 48000
-ksmps = 128
+ksmps = 1
 nchnls = 2
 0dbfs = 1
 
@@ -17,14 +17,14 @@ instr 1
 kamp init 0
 kans OSClisten giosc1, "/amp", "f", kamp
 
-aosc oscil kamp, 440, 1
+aosc oscil 500, kamp, 1
 outs aosc, aosc
 endin
 
 </CsInstruments>
 <CsScore>
 
-f 1 0 1024 10 1
+f 1 0 256 10 1
 
 i 1 0 3000
 e 4
