@@ -47,5 +47,7 @@ Let's go !
 
 J'ai adapté l'instrument de Lorenz de plusieurs façons mais en vain... ça ne donne pas le résultat escompté.
 
-Je vais prendre une pause... 
+Je vais prendre une pause, aujourd'hui je pense.
+
+De retour demain.
 
