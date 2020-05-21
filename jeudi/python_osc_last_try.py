@@ -17,10 +17,11 @@ if __name__ == "__main__":
                         help="The port the OSC server is listening on")
     args = parser.parse_args()
     client = udp_client.SimpleUDPClient(args.ip, args.port)
+    client2 = udp_client.SimpleUDPClient("localhost",5006)
 
-    # client.send_message("/amp", 1)
-    # time.sleep(1)
-    # client.send_message("/amp", 0.2)
+    client.send_message("/amp", 1)
+    time.sleep(1)
+    client2.send_message("/amp", 0.2)
 
     #full_data = quandl.get("WIKI/AAPL", rows=10)
     # checking that it worked !
@@ -35,6 +36,8 @@ if __name__ == "__main__":
 
     print(full_data.head())
     for index, row in full_data.iterrows():
-        client.send_message("/amp", row['Open'])
-        time.sleep(10)
+        client.send_message("/amp", abs(row['Open']/100.0))
+        time.sleep(2)
+        client2.send_message("/amp2", abs(row['pct']))
+        time.sleep(2)
 

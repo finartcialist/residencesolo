@@ -19,30 +19,33 @@ nchnls = 2
 0dbfs = 1
 
 giosc1 OSCinit 5005
+giosc2 OSCinit 5006
 
 turnon 1  ; starts instrument 1 immediately
 
 ; Instrument #1 - a lorenz system in 3D space.
 instr 1
   ; Create a basic tone.
-  kcps init 0
-  kamp init 500
-  kans OSClisten giosc1, "/amp", "f", kcps
-
+  kcps init 500
+  kcps1 init 0
+  kcps2 init 0
+  kamp init 1000
+  kans OSClisten giosc1, "/amp", "f", kcps1
+  kans2 OSClisten giosc2, "/amp2", "f", kcps2
   ifn = 1
   asnd oscil kamp, kcps, ifn
   ;asnd2 oscil kamp, kcps*0.996, ifn
   ;asnd3 oscil kamp, kcps*1.004, ifn
   ; Figure out its X, Y, Z coordinates.
   ksv init 10
-  krv init 28
-  kbv init 2.667
+  ;krv init kcps2
+  ;kbv init kcps1
   kh init 0.0003
   ix = 0.6
   iy = 0.6
   iz = 0.6
   iskip = 1
-  ax1, ay1, az1 lorenz ksv, krv, kbv, kh, ix, iy, iz, iskip
+  ax1, ay1, az1 lorenz kcps, kcps1, kcps2, kh, ix, iy, iz, iskip
 
   ; Place the basic tone within 3D space.
   kx downsamp ax1
@@ -73,8 +76,8 @@ endin
 ; Table #1 a sine wave.
 f 1 0 256 10 1
 
-i 1 0 50
-e 4
+i 1 0 500
+e 40
 
 
 </CsScore>

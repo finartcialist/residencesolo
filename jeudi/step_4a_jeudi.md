@@ -36,3 +36,16 @@ I am changing this for the following:
 ### album !
 * écrire les explications de chaque pièce qui fera partie de l'album
 * écrire la description de l'album
+
+-------
+
+Let's go !
+
+-------
+
+# En vain...
+
+J'ai adapté l'instrument de Lorenz de plusieurs façons mais en vain... ça ne donne pas le résultat escompté.
+
+Je vais prendre une pause... 
+
