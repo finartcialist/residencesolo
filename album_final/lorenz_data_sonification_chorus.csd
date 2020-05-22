@@ -1,4 +1,5 @@
 ; based on https://csound.com/docs/manual/lorenz.html
+; still working with the lorenz attractor as an instrument, adding a chorus.
 
 <CsoundSynthesizer>
 <CsOptions>

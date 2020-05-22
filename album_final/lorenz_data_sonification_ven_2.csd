@@ -1,4 +1,5 @@
 ; based on https://csound.com/docs/manual/lorenz.html
+; pulse instead of sine wave, and also a reson filter is used.
 
 <CsoundSynthesizer>
 <CsOptions>
@@ -66,7 +67,6 @@ endin
 </CsInstruments>
 <CsScore>
 
-; Table #1 a sine wave.
 f1   0    2048 10   1    1    1    1    0.6  0.5       0.3       0.1                 ; Pulse
 
 ; Play Instrument #1 for 2 seconds.

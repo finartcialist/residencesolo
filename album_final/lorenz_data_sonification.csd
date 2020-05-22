@@ -1,4 +1,5 @@
 ; based on https://csound.com/docs/manual/lorenz.html
+; with this piece, my objective is to start working with the Lorenz attractor as an instrument.
 
 <CsoundSynthesizer>
 <CsOptions>

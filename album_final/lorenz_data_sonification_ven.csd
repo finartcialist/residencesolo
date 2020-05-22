@@ -1,4 +1,5 @@
 ; based on https://csound.com/docs/manual/lorenz.html
+; changing the sine wave for a pulse
 
 <CsoundSynthesizer>
 <CsOptions>
