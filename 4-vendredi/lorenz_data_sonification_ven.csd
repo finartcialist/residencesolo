@@ -55,7 +55,11 @@ instr 1
   aleft = aw2 + ay2 + aw3 + ay3 + aw4 + ay4
   aright = aw2 - ay2 + aw3 - ay3 + aw4 - ay4
 
-  outs aleft, aright
+  kcf line 220, 4, 880
+  kbw = 200
+  aresl reson aleft,  kcf, kbw
+  aresr reson aright, kcf, kbw
+  outs aresl, aresr
 endin
 
 
