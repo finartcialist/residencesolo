@@ -8,13 +8,13 @@ Pour toute l'histoire, [voir le repo sur Github](https://www.github.com/finartci
 
 ## final result // résultat final
 
-WARNING: volume levels are all over the place in this album. please be careful in how you set the volume before listening, you might want/have to adjust for each piece.
+**WARNING** : volume levels are all over the place in this album. please be careful in how you set the volume before listening, you might want/have to adjust for each piece.
 
 artefacts d'expérimentations sonore avec Csound, réalisées du 18 au 22 mai 2020, durant une résidence solo at home // quarantaine 2020.
 
 pour en savoir plus finartcialist.com/residencesolo/
 
-ATTENTION: le mastering est inégal, je vous recommande la prudence quant au volume d'écoute - il est à ajuster pour chaque pièce. Merci de votre compréhension.
+**ATTENTION** : le mastering est inégal, je vous recommande la prudence quant au volume d'écoute - il est à ajuster pour chaque pièce. Merci de votre compréhension.
 
 released May 22, 2020
 
