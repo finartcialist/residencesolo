@@ -2,6 +2,12 @@
 
 dates: 18 - 22 mai 2020
 
+## résultat final - final result
+
+listen on bandcamp: [https://finartcialist.bandcamp.com/album/conditions-initiales](conditions initiales)
+
+read online: https://finartcialist.com/residencesolo
+
 ## jeudi 14 mai: introduction
 
 la semaine prochaine, j'effectuerai une résidence solo / retraite artistique à partir de chez moi, de façon complètement autonome.
